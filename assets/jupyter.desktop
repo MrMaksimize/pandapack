@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Jupyter
+GenericName=Jupyter
+Comment=Edit Jupyter Notebooks
+Comment[en_CA]=Edit text files
+Comment[en_GB]=Edit text files
+Exec=lxterminal -e bash -c "jupyter notebook --allow-root; read -n 1 -s"
+Terminal=true
+Type=Application
+Keywords=jupyter
+Icon=gvim
+Categories=Utility;TextEditor;
+StartupNotify=true
