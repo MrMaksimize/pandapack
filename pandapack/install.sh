@@ -59,4 +59,5 @@ wget \
 gdal-bin \
 sqlite3 \
 gnumeric \
-guake
+guake \
+libnss3
