@@ -58,4 +58,5 @@ vim \
 wget \
 gdal-bin \
 sqlite3 \
-gnumeric
+gnumeric \
+guake
