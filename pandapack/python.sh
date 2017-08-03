@@ -1,26 +1,26 @@
 #!/bin/bash -x
 
 echo "<<<<< Pip Install >>>>>" \
-&& pip install -U pip \
-&& pip install Cython \
-&& pip install packaging \
-&& pip install appdirs \
-&& pip install pytz \
-&& pip install pyOpenSSL \
-&& pip install psycopg2 \
-&& pip install requests \
-&& pip install logging \
-&& pip install boto3 \
-&& pip install geojson \
-&& pip install httplib2 \
-&& pip install pandas \
-&& pip install xlrd \
-&& pip install beautifulsoup4 \
-&& pip install lxml \
-&& pip install ipython \
-&& pip install jupyter \
-&& pip install password \
-&& pip install rtree \
-&& pip install shapely \
-&& pip install pyproj \
-&& pip install geopandas
+&& sudo -H pip install -U pip \
+&& sudo -H pip install Cython \
+&& sudo -H pip install packaging \
+&& sudo -H pip install appdirs \
+&& sudo -H pip install pytz \
+&& sudo -H pip install pyOpenSSL \
+&& sudo -H pip install psycopg2 \
+&& sudo -H pip install requests \
+&& sudo -H pip install logging \
+&& sudo -H pip install boto3 \
+&& sudo -H pip install geojson \
+&& sudo -H pip install httplib2 \
+&& sudo -H pip install pandas \
+&& sudo -H pip install xlrd \
+&& sudo -H pip install beautifulsoup4 \
+&& sudo -H pip install lxml \
+&& sudo -H pip install ipython \
+&& sudo -H pip install jupyter \
+&& sudo -H pip install password \
+&& sudo -H pip install rtree \
+&& sudo -H pip install shapely \
+&& sudo -H pip install pyproj \
+&& sudo -H pip install geopandas

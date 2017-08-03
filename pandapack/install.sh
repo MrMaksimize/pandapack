@@ -3,7 +3,7 @@
 echo "<<<<< Update Apt >>>>>" \
 && sudo apt-get update \
 && echo "<<<<< Install Aptitude >>>>>" \
-&& apt-get install aptitude -y \
+&& sudo apt-get install aptitude -y \
 && echo "<<<<< Install Deps >>>>>" \
 && sudo aptitude install -y \
 gvfs-bin \
@@ -57,4 +57,5 @@ freetds-dev \
 vim \
 wget \
 gdal-bin \
-sqlite3
+sqlite3 \
+gnumeric
