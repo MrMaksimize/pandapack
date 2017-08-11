@@ -60,4 +60,6 @@ gdal-bin \
 sqlite3 \
 gnumeric \
 guake \
-libnss3
+libnss3 \
+ruby-dev \
+ruby-all-dev
